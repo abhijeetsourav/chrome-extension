@@ -1,0 +1,22 @@
+{
+  "addOns": {
+    "common": {
+      "name": "voice-notes-cyborg-nitrkl",
+      "logoUrl": "https://images-platform.99static.com//Wg6W9_SO9p3HoC0FK4jswbBdzwI=/0x0:1000x1000/fit-in/500x500/99designs-contests-attachments/76/76677/attachment_76677252"
+    },
+    "meet": {
+      "web": {
+        "sidePanelUri": "www.meeting-notes-cyborg-nitrkl.com",
+        "supportsScreenSharing": true,
+        "logoUrl": "https://images-platform.99static.com//Wg6W9_SO9p3HoC0FK4jswbBdzwI=/0x0:1000x1000/fit-in/500x500/99designs-contests-attachments/76/76677/attachment_76677252",
+        "addOnOrigins": ["www.meeting-notes-cyborg-nitrkl.com"]
+      }
+    }
+  }
+}
+
+
+    // "background": {
+    //   "service_worker": "service-worker.js"
+    // },
+    // "permissions": ["tabCapture", "offscreen"]

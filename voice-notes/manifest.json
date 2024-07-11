@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "voice-notes",
+  "version": "1.0",
+  "action": {
+    "default_icon": "icons/not-recording.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "https://meet.google.com/*"
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "permissions": ["tabs", "offscreen"],
+  "host_permissions": [
+      "https://meet.google.com/*"
+  ]
+}

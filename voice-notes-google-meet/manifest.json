@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "voice-notes-for-google-meet",
+    "version": "1.0",
+    "action": {
+      "default_icon": "icons/not-recording.png"
+    },
+    "background": {
+      "service_worker": "service-worker.js"
+    },
+    "permissions": ["tabCapture", "offscreen"]
+}

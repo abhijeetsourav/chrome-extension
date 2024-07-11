@@ -1,0 +1,13 @@
+#record-btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #record-btn:hover {
+    background-color: #990000;
+  }
+  
